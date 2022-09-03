@@ -1,0 +1,13 @@
+.name-error{
+    color: red;
+    
+}
+#email-error{
+    color: red;
+}
+#number-error{
+    color: red;
+}
+#message-error{
+    color: red;
+}
