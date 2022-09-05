@@ -604,7 +604,7 @@
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="fname" onkeyup="namevalidate()" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" name="name" onkeyup="namevalidate()" id="name" placeholder="Your Name">
                                     <div class="name-error"></div>
                                     <label for="name">Your Name</label>
                                 </div>
@@ -699,7 +699,7 @@
         $("#submit-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbzGZ5XK5fHauJSU18gn4_rbHLTaNiqdodMG1sm7IT4iDu5HrGnKOqErfXMA5_8DmY-0-g/exec",
+                url:"https://script.google.com/macros/s/AKfycbw7Ekxf9tM7RSPtb6zoLDO_84lJ1Y7gBrCgdOjL4OVMaIDCyYljIXB22XKSmOkudW2c/exec",
                 data:$("#submit-form").serialize(),
                 method:"POST",
                 success:function (response){
