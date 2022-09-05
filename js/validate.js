@@ -87,9 +87,10 @@ function validation(){
     }
     else{
         return true;
+       
     }
 }
-console.log("helo")
+
 // const scriptURL="https://script.google.com/macros/s/AKfycbzGZ5XK5fHauJSU18gn4_rbHLTaNiqdodMG1sm7IT4iDu5HrGnKOqErfXMA5_8DmY-0-g/exec"
 
 
